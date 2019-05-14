@@ -1,8 +1,26 @@
 package main
 import "fmt"
 
+// create a type square
+type square struct {
 
+}
 
+type circle struct {
+	pi int
+	radius int
+}
+
+func (c circle) area() {
+	radi := c.radius
+	radi := 8
+	a *= (c.pi * c.radius)
+	fmt.Println("Area of circle is ", )
+}
+
+func main()  {
+	fmt.Println()
+}
 
 
 
